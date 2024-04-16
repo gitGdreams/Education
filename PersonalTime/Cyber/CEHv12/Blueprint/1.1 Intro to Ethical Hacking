@@ -4,11 +4,11 @@ InfoSec overview
 =================
 
 Elements of InfoSec
-  Confidentiality
-  Integrity
-  Availability
-  Authenticity
-  Non-Repudiation
+  Confidentiality - only for the eyes of authorized
+  Integrity - can't change, check change with hash 
+  Availability - accessible
+  Authenticity - signed
+  Non-Repudiation - can't deny
 
 Motives, Goals and Objectives of InfoSec Attacks
   Attack = Motive (Goal) + Method + Vulnerability
@@ -29,8 +29,52 @@ Information Warfare
   Economic - attacks economy of businesses; block flow of info
   Cyberwarfare - virtual personas; no harm, takes over; simula-warfare
   
+    Forms of Infomation Warfare 
+      Defensive - stat, actions to defend
+      Offensive - ATTACK!!!!!!!
 
 
+Hacking Methodologies and Framewarks
+=====================================
+
+CEH Hacking Methodology (CHM)
+  Footprinting > Scanning > Enumeration > Vuln Analysis > System Hacking
+                                                            Gaining Access - cracking passwords; Vuln exploitation
+                                                            Escalating Privs
+                                                            Maintaining Access - Excuting Apps; Hiding Files
+                                                            Clearing logs - covering tracks
+
+Cyber Kill Chain Methodology
+  Recon > Weaponization > Delivery > Exploitation (Triggers code) > Installation (More malware coming up) > C2 > Actions on Objective (goal accomplished)
+*Actions on Objectives can be access to confidential data, disrupts services or network, destroys operational capability, perform more attacks
+
+TTPs - Tactics, Techniques and Procedures
+  Tactics - operation of the threat actor
+  Techniques - skills
+  Procedures - Sequence of actions performed
+
+Adversary Behavioral Identification
+  - common methods used by adversary
+  Internal Recon - 
+  Use of powershell - automation 
+  Unspecified Proxy Activities
+  Use of Coomand-Line Interface - browse files; check process ID
+  HTTP user Agent - user agent field
+  C2 server - encrypted channel; check outbound connections, unwanted open ports
+  Use of DNS Tunneling - to obfuscate malicious traffic; can communicate with C2 server; Analyze malicious DNS request
+  Use of Web Shell - manipulate web server; analyze server access, error logs, sus strings
+  Data Staging - collect and combine; net traffic, malicious file transfers, event logs
+
+Indicators of Compromise (IoCs)
+  Categories:
+    Email - email
+    Network - c2, malware delivery, operating systems, browser types; URLs, Domain names, IP address
+    Host-based - filenames, file hashes, registries, DLLs, Mutex
+    Behavioral - malicious IP, virus signatures, domain names
+    
+
+
+  
 
 
 
