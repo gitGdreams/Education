@@ -1,0 +1,66 @@
+Footprinting Concepts
+======================
+
+To gather as much info as possible to find easy ways to invade target network.
+
+Types of Footprinting:
+  Passive
+  Active
+
+Information obtained in footprinting:
+  Organization info
+  Network info
+  System info
+
+Objectives of Footprinting
+  gather as much information before building hacking strategy.
+
+Footprinting Threats:
+  Social Engineering
+  System and Network Attacks
+  Information Leakage
+  Privacy Loss
+  Corporate Espionage
+  Business Loss
+
+Footprinting Methodology
+  procedure of collecting info about the target from all available sources.
+
+Footprinting through Search Engines
+====================================
+
+search engines returns SERPS or Search Engine Result Page, that is what we need to manipulate
+
+Google Hacking Techniques aka Google Dorking
+  site:
+  filetype:
+  related:
+  inurl:
+  
+Google Hacking Database (GHDB)
+  https://www.exploit-db.com
+  
+VPN footprinting with Google Hacking
+  
+Google Dork
+  inurl:"/sslvpn_logon.shtml" intitle:"User Authentication" "WatchGuard Technologies"
+  inurl:/sslvpn/Login/Login 
+  site:vpn.*.*/ intitle:"login" inurl:weblogin intitle:("USG20-VPN"|"USG20W-VPN"|USG40|USG40W|USG60|USG60W|USG110|USG210|U SG310|USG1100|USG1900|USG2200|"ZyWALL110"|"ZyWALL 310"|"ZyWALL1100"|ATP100|ATP100W|ATP200|ATP500|AT P700|ATP800|VPN50|VPN100|VPN300|VPN000|"FLEX")
+  intext:Please Login SSL VPN inurl:remote/login intext:FortiClient
+  site:vpn.*.*/ intext:"login" intitle:"login" intitle:"index of" /etc/openvpn/ "-----BEGIN OpenVPN Static key V1-----" ext:key intitle:"index of" "vpn-config.*" Index of / *.ovpn inurl:"/vpn/tmindex.html" vpn
+  intitle:"SSL VPN Service" + intext:"Your system administrator provided the following information to help understand and remedy the security conditions:"
+
+Other Techniques
+  Advance search, Advance Image, Reverse Image 
+    https://www.google.com/advanced_search
+    https://www.google.com/advanced_image_search 
+    https://www.google.com/imghp 
+
+
+
+
+
+
+
+
+  
