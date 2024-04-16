@@ -153,12 +153,89 @@ Cyber Threat Intellilgence
  Types:
     Strategic Threat Intel - high-level info; financial impact; 
     Tactical Threat Intel - protect resources; info about TTPs used by Threat Actors
-    Operational Threat Intel
-    Technical Threat Intel
+    Operational Threat Intel - specific threats; insight into attacker methodology
+    Technical Threat Intel - attacker's resorce; c2 channels, tools, piece of malware; short
+
+Threat Intelligence Lifecycle
+  Planning and Direction
+  Collection
+  Processing and Exploitation
+  Analysis and Production
+  Dissemination and Integration
+
+Threat Modeling
+  Analyze security of application; 
+
+Five steps of threat modeling process
+  Identify Security Objectives
+  Application overview
+  Decompose the Application
+  Identify Threats
+  Identify Vulns
+  
+Incedent Management
+
+Incident Handling and Response
+  set of processes to identify, analyze, prioritize, and resolve security incidents to restore system to normal operations ASAP, and prevent recurrence of incident.
+
+Incedent Handling and Response (IH&R)
+  process of reacting to security incident
+
+IH&R Process:
+  Preparation
+  Incedent Recording and Assgnment
+  Incident Triage
+  Notification
+  Containment
+  Evidence Gathering and Forensic Analysis
+  Eradication
+  Recovery
+  Post-Incident Activities
+
+Role of AI and ML in Cyber Security
+ML classification techniques:
+  Supervised Learning
+  Unsupervised Learning
+
+Ways AI/ML safeguard industries from cyber attacks:
+  Password Protection and Authentication
+  Phishing Detection and Prevention
+  Threat Detection
+  Vulnerability Management
+  Behavioral Analytics
+  Network Securityu
+  AI-based antivirus
+  Fraud Detection
+  Botnet Detection
+  AI to Combat AI Threats
 
 
+InfoSec Laws and Standards
+===========================
 
+Payment Card Industry Data Security Standard (PCI DSS)
+  card payment stuff, ATM, POS, credit, prepaid, e-purse
 
+SIO/IEC 27001:2013
+  Organizations' security requirements
+
+Health Insurance Portability and Accountability Act (HIPAA)
+  PII for health stuff
+
+Sarbanes Oxley Act (SOX)
+  protect public and investors by increasing the accuracy and reliability of corporate disclosures. for investors
+
+The Digital Millenium Copyright Act (DMCA)
+  copyright law
+
+The Federal Information Security Management Act (FISMA)
+  security standards and guidelines for federal
+
+General Data Protection Regulation (GDPR)
+  privacy and security standards; drafted and passed by European Union (EU)
+
+Data Protection Act 2018 (DPA)
+  data protection law in UK.
 
 
 
