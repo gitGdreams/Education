@@ -124,6 +124,37 @@ Information Security Controls
 
 Information Assurance (IA)
 
+Continual/Adaptive Security Strategy
+  Protection
+  Detection
+  Responding
+  Prediction
+
+Defense-in-Depth
+  Attacker!!!!! > Policies, Procedures and Awareness > Physical > Perimeter > Internal Net > Host > Application > Data (Where the gold is)
+
+Risk - expectation of potential damage; probability of occurrence of a threat; possibility of threat; product of likelihood that an event will happen
+  RISK = Threats x Vulnerabilities x Impact
+  RISK = Threats x Vulnerabilities x Asset Value
+
+Risk Level - resulted impact
+  Level of Risk = Consequence x Likelihood
+
+Risk Matrix - Scales the risk occurance or likelihood probability, with impact
+
+Risk MAnagement
+  objectives
+    Risk Identification - what, where, cause, consequence
+    Risk Assessment - likelihood and impact
+    Risk Treatment - controls
+    Risk Tracking and Review - ensure appropriate measures and procedures
+
+Cyber Threat Intellilgence
+ Types:
+    Strategic Threat Intel
+    Tactical
+    Operational
+    Technical
 
 
 
