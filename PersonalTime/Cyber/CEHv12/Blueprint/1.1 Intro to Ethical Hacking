@@ -72,13 +72,28 @@ Indicators of Compromise (IoCs)
     Host-based - filenames, file hashes, registries, DLLs, Mutex
     Behavioral - malicious IP, virus signatures, domain names
     
+MITRE ATT&CK Framework
+  Recon > Weaponize > Deliver > Exploit > Control > Execute > Maintain
+|__________________|  |_______________________________________________|
+    Pre-ATT&CK                      Enterprise ATT&CK
 
+Diamond Model:
+  Adversary - the attacker
+  Victim - the target
+  Capability - strategies and methods used by attacker
+  Infrastructure - Hardware and Software used by target
 
-  
+Meta event features:
+  Timestamp - time and date fo the event
+  Phase - proggress of attack
+  Result - outcome of event
+  Direction - how the attack was routed to the victim
+  Methodology - technique used be attacker
+  Resource - tools or technology used to perform the attack
 
-
-
-
+Extended Diamond Model:
+  Social-political meta feature - relationship of target and victim
+  Technology meta-feature - 
 
 
 
