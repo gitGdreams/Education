@@ -58,7 +58,28 @@ Other Techniques
   Video Search Engines
     YouTube Metadata, YouTube DataViewer, EZGif, and VideoReverser.com, mattw.io
   Meta Search Engines
-    Startpage, MetaGer, and eTools.ch, 
+    Startpage, MetaGer, and eTools.ch
+  FTP search Engines
+    FileZilla (https://filezilla-project.org), NAPALM FTP Indexer, FreewareWeb FTP File Search, and Globalfilesearch.com, google dorking
+  IoT Search Engines
+    Shodan, Censys, and Thingful
+      This is the main three gotta remember. IoT search engines, Shodan, Censys, Thingful
+      Thinful is not updated but can still be used in waybackmachine
+
+Footprinting through Web Services
+==================================
+
+Finding company's Top-Level Domains (TLDs) and Sub-domains
+  Tools to find TLDs:
+    Google Dork - site:target.com -inurl:www
+      shows all xxx.target.com and remove results with www in url
+
+  Tools for Sub-domains:
+    Netcraft - Source: https://www.netcraft.com 
+      provides internet security services, anti-fraud and anti-phishing, and more
+    Sublist3r - github
+      python script
+
 
 
 
