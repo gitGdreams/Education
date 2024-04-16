@@ -1,0 +1,54 @@
+Introduction to Ethical Hacking
+
+InfoSec overview
+=================
+
+Elements of InfoSec
+  Confidentiality
+  Integrity
+  Availability
+  Authenticity
+  Non-Repudiation
+
+Motives, Goals and Objectives of InfoSec Attacks
+  Attack = Motive (Goal) + Method + Vulnerability
+
+Classification of Attacks
+  Passive
+  Active
+  Close-In
+  Insider
+  Distribution
+
+Information Warfare
+  C2 warfare / Command and Control - possession over compromised system or network
+  Intelligence-based - sensor-based
+  Electronic - radio-electric
+  Psychological - propaganda and terror
+  Hacker -shutdowns, data errors,theft, and more using malware, virus, trojan, logic bombs, sniffers
+  Economic - attacks economy of businesses; block flow of info
+  Cyberwarfare - virtual personas; no harm, takes over; simula-warfare
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
