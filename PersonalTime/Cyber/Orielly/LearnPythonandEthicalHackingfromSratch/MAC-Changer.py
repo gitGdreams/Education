@@ -9,7 +9,7 @@ def get_arguments():
 
 def change_mac(interface, macaddr):
     subprocess.call(["ifconfig", interface, "down"])
-    subprocess.call(["ifconfig", interface, "hw" "ether", macaddr])
+    subprocess.call(["ifconfig", interface, "hw", "ether", macaddr])
     subprocess.call(["ifconfig", interface, "up"])
     print(f"MAC address of {interface} has been changed to {macaddr}.")
 
