@@ -13,4 +13,4 @@ verify = input("Verify interface after MAC address change (y/n)? ")
 if verify.lower() == 'y':
     subprocess.call(f"ifconfig {interface}")
 else:
-    print("Verification skipped.")
+    print("Okay then!!!")
