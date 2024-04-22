@@ -1,7 +1,7 @@
 import subprocess
-import argparse
+import optparse
 
-parser = argparse.OptionParser()
+parser = optparse.OptionParser()
 
 parser.add_option("-i", "--interface", dest ="interface", help="Interface to change its MAC address")
 parser.add_option("-m", "--mac address", dest = "macaddr", help = "Replace MAC")
