@@ -1,18 +1,17 @@
 import subprocess
-import argparse
+import optparse
 
-parser = argparse.ArgumentParser()
+def get_arguments():
+    parser = optparse.OptionParser()
+    parser.add_option("-i", "--interface", dest="interface", help="Interface to change its MAC address")
+    parser.add_option("-m", "--macaddress", dest="macaddr", help="Replace MAC address")
+    return parser.parse_args()
 
-parser.add_argument("-i", "--interface", dest="interface", help="Interface to change its MAC address")
-parser.add_argument("-m", "--macaddress", dest="macaddr", help="Replace MAC address")
+def change_mac(interface, macaddr):
+    subprocess.call(["ifconfig", interface, "down"])
+    subprocess.call(["ifconfig", interface, "hw" "ether", macaddr])
+    subprocess.call(["ifconfig", interface, "up"])
+    print(f"MAC address of {interface} has been changed to {macaddr}.")
 
-args = parser.parse_args()
-
-interface = args.interface
-macaddr = args.macaddr
-
-subprocess.call(f"ifconfig {interface} down", shell=True)
-subprocess.call(f"ifconfig {interface} hw ether {macaddr}", shell=True)
-subprocess.call(f"ifconfig {interface} up", shell=True)
-
-print(f"MAC address of {interface} has been changed to {macaddr}.")
+(options, arguments) = get_arguments()
+change_mac(options.interface, options.macaddr)
