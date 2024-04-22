@@ -12,6 +12,7 @@ def change_mac(interface, macaddr):
     subprocess.call(["ifconfig", interface, "hw", "ether", macaddr])
     subprocess.call(["ifconfig", interface, "up"])
     print(f"MAC address of {interface} has been changed to {macaddr}.")
+    subprocess.call(["ifconfig", interface])
 
 (options, arguments) = get_arguments()
 change_mac(options.interface, options.macaddr)
