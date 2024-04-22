@@ -9,8 +9,8 @@ subprocess.call(f"ifconfig {interface} up", shell=True)
 
 print(f"MAC address of {interface} has been changed to {macaddr}.")
 
-verify_after = input("Verify interface after MAC address change (y/n)? ")
-if verify_after.lower() == 'y':
+verify = input("Verify interface after MAC address change (y/n)? ")
+if verify.lower() == 'y':
     subprocess.call(f"ifconfig {interface}")
 else:
     print("Verification skipped.")
