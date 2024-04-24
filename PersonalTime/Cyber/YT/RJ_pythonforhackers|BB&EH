@@ -30,6 +30,35 @@ elif fnum == snum:
 else:
     print("2nd number is higher than the 1st number")
 
+41:00
+# Challenge
+print("Hi user!!")
+score = input("Please input your score:")
+score = int(score)
+
+if score >= 90:
+    print("Grade A")
+elif score >= 80 <= 89:
+    print("Grade B")
+elif score >= 70 <= 79:
+    print("Grade C")
+elif score >= 60 <= 69:
+    print("Grade D")
+elif score <= 59:
+    print("You have FFFFFFFFailed the city!!")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
