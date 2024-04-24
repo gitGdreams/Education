@@ -18,7 +18,17 @@ int = 123123
 float = 1.2
 boolean = true or false
 
+39:00
+if statements
+fnum = input("Gimme your 1st number!")
+snum = input("Gimme the 2nd number!")
 
+if fnum > snum:
+    print("1st number is higher than the 2nd number")
+elif fnum == snum:
+    print("You gave me an equal number!")
+else:
+    print("2nd number is higher than the 1st number")
 
 
 
