@@ -12,7 +12,7 @@ petName = input("What is your pet's name?")
 
 birthCity = input("What city were you born in?")
 
-print(f"Your new twitter handle and bio @cyber{petName} from {birthCity}")
+print(f"Your new twitter handle and bio @cyber{petName} from {birthCity}.")
 
 
 
