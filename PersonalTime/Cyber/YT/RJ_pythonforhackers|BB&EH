@@ -32,12 +32,16 @@ else:
 
 41:00
 # Challenge
-print("Hi user!!")
+print("Hi user, I'm Jude and I'm here to judge your score!!")
 score = input("Please input your score:")
 score = int(score)
 
 if score >= 90:
-    print("Grade A")
+    age = int(input("How old are you?"))
+    if age < 10:
+        print("Cuz you a genius, you be A+")
+    else:
+        print("You get an A")
 elif score >= 80:
     print("Grade B")
 elif score >= 70:
