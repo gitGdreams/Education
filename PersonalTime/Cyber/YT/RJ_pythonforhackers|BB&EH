@@ -1,0 +1,15 @@
+print("Hello my guy!")
+print("Hello " + input("What's your name?") + "!!!")
+
+15:00
+
+
+
+
+
+
+
+
+
+
+
