@@ -33,13 +33,12 @@ else:
 41:00
 # Challenge
 print("Hi user, I'm Jude and I'm here to judge your score!!")
-score = input("Please input your score:")
-score = int(score)
+score = int(input("Please input your score:"))
 
 if score >= 90:
     age = int(input("How old are you?"))
     if age < 10:
-        print("Cuz you a genius, you be A+")
+        print("Cuz you a young genius, you be A+")
     else:
         print("You get an A")
 elif score >= 80:
@@ -52,6 +51,7 @@ else:
     print("You have FFFFFFFFailed the city!!")
 
 47:00
+
 
 
 
