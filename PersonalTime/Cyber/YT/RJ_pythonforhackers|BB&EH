@@ -54,6 +54,24 @@ else:
 
 50:00
 # for loops
+# fruits = ["apple", "banana", "cherry"]
+
+# for num in range(1, 100):
+#     if num % 3 == 0:
+#         print(num)
+
+for num in range(1,100):
+    if num % 5 == 0 and num % 3 == 0:
+        print(str(num) + " fizzbuzz")
+    elif num % 5 == 0:
+        print(str(num) + " buzz")
+    elif num % 3 == 0:
+        print(str(num) + " fizz")
+    else:
+        print(num)
+
+59:00
+# Functions
 
 
 
