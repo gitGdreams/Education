@@ -72,6 +72,32 @@ for num in range(1,100):
 
 59:00
 # Functions
+import time
+
+choice = int(input("Up to what number? "))
+
+def fizzbuzz(choice):
+    for num in range(1, choice):
+        if num % 5 == 0 and num % 3 == 0:
+            print(str(num) + " fizzbuzz")
+        elif num % 5 == 0:
+            print(str(num) + " buzz")
+        elif num % 3 == 0:
+            print(str(num) + " fizz")
+        else:
+            print(num)
+
+sec = int(input("Delay time: "))
+
+def holdOn(sec):
+    print("about to run the program")
+    time.sleep(sec)
+
+holdOn(sec)
+fizzbuzz(choice)
+
+1:07:20
+# Challenge
 
 
 
