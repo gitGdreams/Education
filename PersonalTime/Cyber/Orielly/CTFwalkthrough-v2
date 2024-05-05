@@ -46,6 +46,14 @@ if theres 80, open it up in browser
 # Look for the web technologies running in the target
 whatweb [targetIP]
 
+# don't forget to check the robot.txt
+go to browser and type in url "[targetIP]/robot.txt"
+
+# look for useful info
+
+# look for vulnerabilities using searchploit
+searchploit Drupal 7
+
 
 
 
