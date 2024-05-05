@@ -43,7 +43,10 @@ nmap [targetIP] -v -Pn -p-
 # look for port 22, 80
 if theres 80, open it up in browser
 
-#
+# Look for the web technologies running in the target
+whatweb [targetIP]
+
+
 
 
 
