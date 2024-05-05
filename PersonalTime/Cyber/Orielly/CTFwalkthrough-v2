@@ -34,3 +34,41 @@ if you see the #, you are now root
 ===================================================================================
 DC-1:
 
+# Find the target
+netdiscover -i eth0
+
+# Nmap
+nmap [targetIP] -v -Pn -p-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
