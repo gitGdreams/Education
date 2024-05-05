@@ -37,8 +37,13 @@ DC-1:
 # Find the target
 netdiscover -i eth0
 
-# Nmap
+# Nmap to see them open ports
 nmap [targetIP] -v -Pn -p-
+
+# look for port 22, 80
+if theres 80, open it up in browser
+
+#
 
 
 
