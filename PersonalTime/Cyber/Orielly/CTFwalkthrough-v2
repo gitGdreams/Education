@@ -93,7 +93,7 @@ open browser > in URL type> targetIP:1898
 dirb http://targetIP:port/ > shows them directories; but they're empty
 
 #nikto it up
-nikto - host http://targetIP:1898
+nikto -host http://targetIP:1898 > shows the server and version with contents: Drupal 7
 
 
 
