@@ -1,0 +1,7 @@
+Client - Server relationship
+Client requests for services and resources from Server.
+Server provides services and resources to Client.
+
+When visiting a website:
+browser will be a client that request a webpage from web server.
+
