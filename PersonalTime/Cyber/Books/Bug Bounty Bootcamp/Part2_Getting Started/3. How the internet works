@@ -15,6 +15,16 @@ So this is how it works:
 Browser ---where is google.com--> DNS Server ---it's 8.8.8.8--> Browser
 Then, Browser --Google please--> Web Server 8.8.8.8 --Here's the page--> Browser
 
+Internet Ports
+port is a logical division on devices that identifies the specific network service. 
+  80 = https
+  25 = SMTP
+  22 = SSH
+  21 = FTP
+This feature allows the server to provide multiple services at the same time.
+
+
+
 
 
 
