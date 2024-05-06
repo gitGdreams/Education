@@ -26,6 +26,7 @@ This feature allows the server to provide multiple services at the same time.
 So, if the client connects to port 80, web server understeands that the client wishes to access its web services.
 Browser(Client) --port 80--> WebServer <--> Port 80, Port 25, Port 21
 
+HTTP Requests and Responses
 
 
 
