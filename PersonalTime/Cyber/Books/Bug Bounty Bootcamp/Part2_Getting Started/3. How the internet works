@@ -5,3 +5,24 @@ Server provides services and resources to Client.
 When visiting a website:
 browser will be a client that request a webpage from web server.
 
+Web page = collection of resources or files sent by the web server.
+  HTML, CSS, JS, images, and videos
+JavaScript can animate and validate user input on the client side before sending it to the server.
+
+Web API enables applications to request data from other systems. Allowing data share and resources in a controlled way
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
