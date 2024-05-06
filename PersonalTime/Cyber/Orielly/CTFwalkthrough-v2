@@ -84,6 +84,13 @@ find . -exec '/bin/sh' \; > use ls and cd till you find that flag.txt
 ===================================================================================
 Lampiao
 
+netdiscover -i eth0 > shows the targetIP
+
+nmap targetIP -p- -sV
+
+
+
+
 
 
 
