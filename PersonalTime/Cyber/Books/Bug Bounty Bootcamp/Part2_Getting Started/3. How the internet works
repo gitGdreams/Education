@@ -23,6 +23,9 @@ port is a logical division on devices that identifies the specific network servi
   22 = SSH
   21 = FTP
 This feature allows the server to provide multiple services at the same time.
+So, if the client connects to port 80, web server understeands that the client wishes to access its web services.
+Browser(Client) --port 80--> WebServer <--> Port 80, Port 25, Port 21
+
 
 
 
