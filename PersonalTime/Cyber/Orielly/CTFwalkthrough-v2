@@ -90,6 +90,9 @@ nmap targetIP -p- -sV > shows open ports; 22, 80, 1898 Apache
 
 open browser > in URL type> targetIP:1898
 
+dirb http://targetIP:port/ > shows them good stuff
+
+
 
 
 
