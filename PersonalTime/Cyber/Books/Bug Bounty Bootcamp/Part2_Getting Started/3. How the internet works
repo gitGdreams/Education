@@ -8,10 +8,12 @@ browser will be a client that request a webpage from web server.
 Web page = collection of resources or files sent by the web server.
   HTML, CSS, JS, images, and videos
 JavaScript can animate and validate user input on the client side before sending it to the server.
+Web API enables applications to request data from other systems. Allowing data share and resources in a controlled way.
 
-Web API enables applications to request data from other systems. Allowing data share and resources in a controlled way
-
-
+DNS server functions like a phone book, translating numbers to names or names to numbers.
+So this is how it works:
+Browser ---where is google.com--> DNS Server ---it's 8.8.8.8--> Browser
+Then, Browser --Google please--> Web Server 8.8.8.8 --Here's the page--> Browser
 
 
 
