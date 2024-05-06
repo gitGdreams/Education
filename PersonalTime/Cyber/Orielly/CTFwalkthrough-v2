@@ -95,8 +95,11 @@ dirb http://targetIP:port/ > shows them directories; but they're empty
 #nikto it up
 nikto -host http://targetIP:1898 > shows the server and version with contents: Drupal 7
 
+# go to changelog.txt it come with drupal, check for more accurate version of drupal
+In browser url type > targetIP:1898/changelog.txt > it shall show the detailed version of drupal
 
-
+In terminal, run metasploit > type "msfconsole" > "search drupal" > look for the latest disclosure date and run it > copy name of the script
+type and paste path > use exploit/unix/webapp/drupal_drupalgeddon2
 
 
 
