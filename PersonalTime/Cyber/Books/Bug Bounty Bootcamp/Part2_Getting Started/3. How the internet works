@@ -26,8 +26,25 @@ This feature allows the server to provide multiple services at the same time.
 So, if the client connects to port 80, web server understeands that the client wishes to access its web services.
 Browser(Client) --port 80--> WebServer <--> Port 80, Port 25, Port 21
 
+----------------------------------------------------------------------
 HTTP Requests and Responses
-HTTP is a set of rules that specifies how to structure and interpret internet messages, and how web clients and web servers should exchange information
+HTTP is a set of rules that specifies how to structure and interpret internet messages, and how web clients and web servers should exchange information.
+Two most common:
+GET - retrieves data from server
+POST - submits data to server
+
+Other ones:
+OPTIONS - requests permitted HTTP methods for a given URL
+PUT - used to update a resource
+DELETE - used to delete a resource
+
+All HTTP requests are compose of:
+Request line
+Request headers
+Optional request body
+
+
+
 
 
 
