@@ -52,6 +52,12 @@ An HTTP status code to indicate whether the request succeeded - 200
 HTTP headers, which are bits of information that browsers and servers use to communicate with each other about authentication, content format, and security policies; 
 HTTP response body, or the actual web content that you requested. 
 
+HTTP code:
+200 - successful request
+300 - redirect to another page
+400 - error on client's part
+500 - server error
+
 
 
 
