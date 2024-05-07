@@ -39,9 +39,11 @@ PUT - used to update a resource
 DELETE - used to delete a resource
 
 All HTTP requests are compose of:
-Request line
-Request headers
-Optional request body
+Request line - first line; GET / HTTP/1.1 ; specifies request method, requested URL and version of HTTP used
+Request headers - used to pass additional information about the request to the server, Host:, User-Agent:, Accept:, and others
+Optional request body - 
+
+Pay attention to Referer, Cookie and Authorization
 
 
 
