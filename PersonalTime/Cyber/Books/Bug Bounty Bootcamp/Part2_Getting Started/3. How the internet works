@@ -75,6 +75,8 @@ JS Code
 Content Encoding - way to transfer binary data reliably across machines that have limited support for different content types.
 
 Base64 encoding is one of the most common encoding data.
+Hexadecimal Encoding is the other one.
+URL encoding is the other one.
 
 
 
