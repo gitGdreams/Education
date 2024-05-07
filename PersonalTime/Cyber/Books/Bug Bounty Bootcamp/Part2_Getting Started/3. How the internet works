@@ -46,7 +46,11 @@ Optional request body -
 Pay attention to Referer, Cookie and Authorization
 
 HTTP response 
-This is when the server fulfill the client's request byt returning the resources used to construct web page
+This is when the server fulfill the client's request by returning the resources used to construct web page.
+It contains:
+An HTTP status code to indicate whether the request succeeded - 200
+HTTP headers, which are bits of information that browsers and servers use to communicate with each other about authentication, content format, and security policies; 
+HTTP response body, or the actual web content that you requested. 
 
 
 
