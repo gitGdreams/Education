@@ -58,6 +58,15 @@ HTTP code:
 400 - error on client's part
 500 - server error
 
+Example 403 means resource is forbidden to you.
+
+Pay special Attention to HTTP response headers:
+Set-Cookie - sent by server to client to set a cookie
+Location - indicates URL to which to redirect the page
+Access-Control-Allow-Origin - indicates which origins can access the page's content(Chapter 19 talks about this)
+Content-Security-Policy - controls the origin of the resources the browser is allowed to load
+X-Frame-Options - indicates whether the page can be loaded within an iframe(Chapter 8 talks about this)
+
 
 
 
