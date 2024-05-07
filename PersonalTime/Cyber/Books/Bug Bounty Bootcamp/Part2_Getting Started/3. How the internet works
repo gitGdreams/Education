@@ -45,6 +45,8 @@ Optional request body -
 
 Pay attention to Referer, Cookie and Authorization
 
+HTTP response 
+This is when the server fulfill the client's request byt returning the resources used to construct web page
 
 
 
