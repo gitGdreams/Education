@@ -67,7 +67,14 @@ Access-Control-Allow-Origin - indicates which origins can access the page's cont
 Content-Security-Policy - controls the origin of the resources the browser is allowed to load(Chapter 8)
 X-Frame-Options - indicates whether the page can be loaded within an iframe(Chapter 8 talks about this)
 
+Response body has:
+HTML
+JS Code
 
+-----------------------------------------------------------------
+Content Encoding - way to transfer binary data reliably across machines that have limited support for different content types.
+
+Base64 encoding is one of the most common encoding data.
 
 
 
