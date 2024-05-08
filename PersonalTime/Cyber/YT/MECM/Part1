@@ -1,0 +1,22 @@
+MECM
+types of servers:
+CAS - central administration site
+Primary Server
+MP - Management Point - provides policy 
+DP - Distribution Point - contains updates, OS image, boot image, software packages and updates
+
+Deployment types:
+Available - not installed on WS directly, must go to software center
+Required - Software is installed no user input required, deadline set by admins
+
+
+
+
+
+
+
+
+
+
+
+
