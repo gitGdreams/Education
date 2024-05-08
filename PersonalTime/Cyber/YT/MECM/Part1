@@ -9,6 +9,10 @@ Deployment types:
 Available - not installed on WS directly, must go to software center
 Required - Software is installed no user input required, deadline set by admins
 
+Pilot - collection of machines to test software deployment before deployment to enterprise
+
+Software testing WS(workstation) - after pilot, this is the test subject
+
 
 
 
