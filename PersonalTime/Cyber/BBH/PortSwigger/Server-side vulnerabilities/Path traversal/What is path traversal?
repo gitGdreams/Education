@@ -1,0 +1,8 @@
+  Path traversal or directory traversal is a vulnerability that lets the hunter read arbitrary files
+on the server that is running an application, including:
+  application code and data
+  back-end systems credentials
+  sensitive operating system files
+
+  In some cases, the hunter might be able to write to arbitrary files on the server, allowing them to
+modify application data or behavior and ultimately take full control of the server.
