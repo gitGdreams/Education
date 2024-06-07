@@ -1,0 +1,39 @@
+Path Traversal Attacks
+Scenario: Shopping Application
+
+HTML Code: <img src="/loadImage?filename=218.png">
+Functionality: The loadImage URL takes a filename parameter to return the contents of the specified file.
+Image Storage Path: /var/www/images/
+Full Path Example: /var/www/images/218.png
+Vulnerability: Path Traversal
+
+No Defense Against Path Traversal: The application does not sanitize the filename parameter.
+Attack Example:
+URL: https://insecure-website.com/loadImage?filename=../../../etc/passwd
+The application reads from: /var/www/images/../../../etc/passwd
+Result: The file /etc/passwd is retrieved.
+Mechanism: Path Traversal
+
+Path Traversal Sequence: ../ moves up one directory level.
+Exploit Path:
+../../../etc/passwd
+Steps up from /var/www/images/ to root (/) and accesses /etc/passwd.
+Impact on Unix-based Systems
+
+File Accessed: /etc/passwd
+Contents: Contains user details on the server.
+Risk: Exposure of sensitive system files.
+Impact on Windows-based Systems
+
+Path Traversal Sequences: (Unix-basedOS)../    ;   (WindowsOS) ../ and ..\
+Equivalent Attack Example:
+URL: https://insecure-website.com/loadImage?filename=..\..\..\windows\win.ini
+This retrieves the win.ini file on a Windows server.
+
+Key Takeaways
+Sanitization: Always sanitize input parameters to prevent path traversal.
+Validation: Implement strict validation to ensure file paths remain within allowed directories.
+Awareness: Understand both Unix and Windows traversal sequences and their impacts.
+
+By understanding and mitigating path traversal vulnerabilities, we can protect applications from 
+unauthorized file access and potential data breaches.
